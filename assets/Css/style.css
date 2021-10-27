@@ -1,0 +1,16 @@
+:root{
+    --fundo-site: #171717;
+}
+
+
+body{
+    background-color: var(--fundo-site);
+}
+
+a.nav-link{
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+
+
