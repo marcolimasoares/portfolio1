@@ -1,5 +1,9 @@
 :root{
     --fundo-site: #171717;
+    --texto-cinza: #828282;
+    --primaria: #27AE60;
+    --primaria-claro: #0f3f23;
+
 }
 
 
@@ -12,5 +16,38 @@ a.nav-link{
     margin: 0 20px;
 }
 
+.text-grey{
+    color: var(--texto-cinza);
+}
 
+.btn{
+    border-radius: 0%;
+    padding: 10px 30px;
+}
+
+.btn-primary{
+    background-color: var(--primaria);
+    color: white;
+    border-color: var(--primaria);
+    padding: 10px 30px;
+}
+
+.btn-primary:hover{
+    background-color: var(--primaria-claro);
+    border-color: var(--primaria-claro);
+}
+
+.btn-outline-primary{
+    border-color: white;
+    color: white;
+}
+
+.profile-image{
+    padding: 30px;
+}
+
+.profile-image img{
+    width: 100%;
+    border-radius: 50%;
+}
 
