@@ -3,18 +3,19 @@
     --texto-cinza: #828282;
     --primaria: #27AE60;
     --primaria-claro: #0f3f23;
-
-}
+    }
 
 
 body{
     background-color: var(--fundo-site);
 }
 
+
 a.nav-link{
     font-size: 18px;
     margin: 0 20px;
 }
+
 
 .text-grey{
     color: var(--texto-cinza);
@@ -51,3 +52,73 @@ a.nav-link{
     border-radius: 50%;
 }
 
+.text-white-titulo{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#texto{
+    text-align: center;
+    font-size: 18px;
+}
+
+.circulo-externo{
+    height: 62px;
+    width: 62px;
+    background-color: #212121;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.circulo-interno{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    background-color: #27AE60;
+    border-radius: 50px;
+}
+
+#personal-data{
+    padding-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#software{
+    background-color: #212121;
+    color: #535353;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.porcentagem{
+    color: #4f4f4f;
+}
+
+.linguagem{
+    color: #27AE60;
+}
+
+#skills{
+    background-color: #212121;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.do{
+    padding-bottom: 30px;
+}
