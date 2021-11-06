@@ -69,15 +69,10 @@ a.nav-link{
     width: 62px;
     background-color: #212121;
     border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
+    
 }
 
 .circulo-interno{
-    align-items: center;
-    justify-content: center;
-    display: flex;
     width: 12px;
     height: 12px;
     background-color: #27AE60;
